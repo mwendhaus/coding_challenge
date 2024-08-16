@@ -1,0 +1,45 @@
+# Python-related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyTorch-specific
+*.pt
+*.pth
+*.ckpt
+*.pkl
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.gz
+
+# IDE and Editor-specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# System-specific
+.DS_Store
+Thumbs.db
+
+data/imgs
+data/numpy
+data/numpy_undersampled
+data/car_imgs_4000.csv
